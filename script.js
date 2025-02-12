@@ -9,7 +9,7 @@ async function sendMessage() {
     document.getElementById("user-input").value = "";
 
     try {
-        const response = await fetch("http://localhost:5001/chat", {
+        const response = await fetch("https://ai-chatbot-qciu.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
