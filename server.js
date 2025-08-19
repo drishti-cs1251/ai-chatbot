@@ -38,6 +38,6 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-// Start server
-const PORT = process.env.PORT || 5001;
+// Start servers
+const PORT = process.env.PORT || 10000 || 5001;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
