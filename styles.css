@@ -89,3 +89,28 @@ button:hover {
         width: 90%;
     }
 }
+.user-message {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: right;
+  margin-left: auto;
+  padding: 10px 15px;
+  border-radius: 20px 20px 0 20px;
+  display: inline-block;
+}
+
+.bot-message {
+  background: #f1f1f1;
+  text-align: left;
+  margin-right: auto;
+  padding: 10px 15px;
+  border-radius: 20px 20px 20px 0;
+  display: inline-block;
+}
+
+.typing {
+  font-style: italic;
+  color: gray;
+  margin: 5px;
+}
+
